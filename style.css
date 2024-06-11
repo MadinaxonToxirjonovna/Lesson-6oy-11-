@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.card{
+    width: 280px;
+    height: 420px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px 70px 20px 70px;
+    cursor: pointer;
+    transition: all .25s ease;
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 30px 0 rgb(197, 209, 219);
+}
+
+.images{
+    width: 150px;
+    height: 180px;
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+.title{
+    width: 180px;
+    text-align: center;
+    margin-left: -15px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.price{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Catamaran", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 400;
+    color: red;
+    cursor: pointer;
+}
+
+.price:hover{
+    color: yellow;
+}
+
+.count{
+    text-align: center;
+    font-family: "Catamaran", sans-serif;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.count:hover{
+   
+}
